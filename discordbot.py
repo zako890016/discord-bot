@@ -2,8 +2,8 @@ from discord.ext import commands
 from os import getenv
 import traceback
 
-bot = commands.Bot(command_prefix="/",
-                   activity=discord.Game("原神") # Qiitaをプレイ中
+bot = commands.Bot(command_prefix='/',
+                   activity=discord.Game('原神') # Qiitaをプレイ中
 )
 
 
